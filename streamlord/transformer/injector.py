@@ -1,7 +1,7 @@
 import collections.abc
 
 
-class Injector:
+class Inject:
     def __init__(
         self,
         reference: collections.abc.Mapping,

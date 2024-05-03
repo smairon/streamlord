@@ -2,7 +2,7 @@ import collections.abc
 import typing
 
 
-class Digger:
+class Dig:
     def __init__(
         self,
         path: str

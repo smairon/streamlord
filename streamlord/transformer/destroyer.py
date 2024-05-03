@@ -1,7 +1,7 @@
 import collections
 
 
-class KeyRemover:
+class RemoveKey:
     def __init__(self, path: str):
         self._chain = path.split('.')
 

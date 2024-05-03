@@ -1,3 +1,8 @@
 import collections.abc
+import typing
 
-Stream = collections.abc.Iterable[collections.abc.MutableMapping]
+T = typing.TypeVar('T')
+
+
+class Stream(typing.Generic[T]):
+    def __iter__(self) -> collections.abc.Iterable[T]: ...

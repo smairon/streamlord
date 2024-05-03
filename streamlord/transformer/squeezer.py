@@ -2,7 +2,7 @@ import collections.abc
 import typing
 
 
-class Squeezer:
+class Squeeze:
     def __init__(
         self,
         separator: str = '__',

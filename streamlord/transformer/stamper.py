@@ -1,7 +1,7 @@
 import collections.abc
 
 
-class Stamper:
+class Stamp:
     def __init__(self, parent_key: str, *nested_keys: str | tuple[str, str]):
         super().__init__()
         self._parent_chain = parent_key.split('.')
