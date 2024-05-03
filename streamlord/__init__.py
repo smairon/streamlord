@@ -1,5 +1,5 @@
 from . import (
-    mappers,
+    transformers,
     collectors
 )
 from .pipeline import Pipe as pipe
